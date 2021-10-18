@@ -1,0 +1,40 @@
+---
+title: "Testing Rmd in VS Code"
+output:
+  # bookdown::pdf_document2: default
+  # bookdown::html_document2: default
+  bookdown::word_document2: default
+bibliography: "references.bib"
+link-citations: true
+---
+
+# References
+
+Adding a reference from a bib file that gets automatically created by Paperpile [@Curtis2021-an].
+Here's another OpenSAFELY paper @Williamson2020-dt.
+
+# Calculations
+
+Some complex calculations here.
+
+```{r}
+# Let's use R to solve this for us and store the result in a new object
+results <- 1 + 1
+
+# Return results here
+results
+```
+
+We can also use inline R chunks to return the result in a sentence.
+The answer of our problem above is: `r results`.
+
+## Tables
+
+```{r mtcars, }
+knitr::kable(mtcars[1:4,1:4], 
+             caption = "The mtcars data.")
+```
+
+Really important numbers, see Table \@ref(tab:mtcars).
+
+# References
