@@ -1,0 +1,185 @@
+@ARTICLE{Curtis2021-an,
+  title     = "{OpenSAFELY} {NHS} Service Restoration Observatory 1: describing
+               trends and variation in primary care clinical activity for 23.3
+               million patients in England during the first wave of {COVID-19}",
+  author    = "Curtis, Helen J and MacKenna, Brian and Croker, Richard and
+               Inglesby, Peter and Walker, Alex J and Morley, Jessica and
+               Mehrkar, Amir and Morton, Caroline E and Bacon, Seb and Hickman,
+               George and al., Et",
+  journal   = "The British journal of general practice: the journal of the
+               Royal College of General Practitioners",
+  publisher = "British Journal of General Practice",
+  month     =  sep,
+  year      =  2021,
+  url       = "https://bjgp.org/content/early/2021/09/24/BJGP.2021.0380",
+  issn      = "0960-1643, 1478-5242",
+  doi       = "10.3399/BJGP.2021.0380"
+}
+
+@ARTICLE{Williamson2020-dt,
+  title    = "Factors associated with {COVID-19-related} death using
+              {OpenSAFELY}",
+  author   = "Williamson, Elizabeth J and Walker, Alex J and Bhaskaran,
+              Krishnan and Bacon, Seb and Bates, Chris and Morton, Caroline E
+              and Curtis, Helen J and Mehrkar, Amir and Evans, David and
+              Inglesby, Peter and Cockburn, Jonathan and McDonald, Helen I and
+              MacKenna, Brian and Tomlinson, Laurie and Douglas, Ian J and
+              Rentsch, Christopher T and Mathur, Rohini and Wong, Angel Y S and
+              Grieve, Richard and Harrison, David and Forbes, Harriet and
+              Schultze, Anna and Croker, Richard and Parry, John and Hester,
+              Frank and Harper, Sam and Perera, Rafael and Evans, Stephen J W
+              and Smeeth, Liam and Goldacre, Ben",
+  abstract = "Coronavirus disease 2019 (COVID-19) has rapidly affected
+              mortality worldwide1. There is unprecedented urgency to
+              understand who is most at risk of severe outcomes, and this
+              requires new approaches for the timely analysis of large
+              datasets. Working on behalf of NHS England, we created
+              OpenSAFELY-a secure health analytics platform that covers 40\% of
+              all patients in England and holds patient data within the
+              existing data centre of a major vendor of primary care electronic
+              health records. Here we used OpenSAFELY to examine factors
+              associated with COVID-19-related death. Primary care records of
+              17,278,392 adults were pseudonymously linked to 10,926
+              COVID-19-related deaths. COVID-19-related death was associated
+              with: being male (hazard ratio (HR) 1.59 (95\% confidence
+              interval 1.53-1.65)); greater age and deprivation (both with a
+              strong gradient); diabetes; severe asthma; and various other
+              medical conditions. Compared with people of white ethnicity,
+              Black and South Asian people were at higher risk, even after
+              adjustment for other factors (HR 1.48 (1.29-1.69) and 1.45
+              (1.32-1.58), respectively). We have quantified a range of
+              clinical factors associated with COVID-19-related death in one of
+              the largest cohort studies on this topic so far. More patient
+              records are rapidly being added to OpenSAFELY, we will update and
+              extend our results regularly.",
+  journal  = "Nature",
+  volume   =  584,
+  number   =  7821,
+  pages    = "430--436",
+  month    =  aug,
+  year     =  2020,
+  url      = "http://dx.doi.org/10.1038/s41586-020-2521-4",
+  language = "en",
+  issn     = "0028-0836, 1476-4687",
+  pmid     = "32640463",
+  doi      = "10.1038/s41586-020-2521-4",
+  pmc      = "PMC7611074"
+}
+
+@ARTICLE{Curtis2021-va,
+  title     = "Trends and clinical characteristics of {COVID-19} vaccine
+               recipients: a federated analysis of 57.9 million patients'
+               primary care records in situ using {OpenSAFELY}",
+  author    = "Curtis, Helen J and Inglesby, Peter and Morton, Caroline E and
+               MacKenna, Brian and Green, Amelia and Hulme, William J and
+               Walker, Alex J and Morley, Jessica and Mehrkar, Amir and Bacon,
+               Seb and Hickman, George and Bates, Chris and Croker, Richard and
+               Evans, David and Ward, Tom and Cockburn, Jonathan and Davy,
+               Simon and Bhaskaran, Krishnan and Schultze, Anna and Rentsch,
+               Christopher T and Williamson, Elizabeth J and Rowan, Anna and
+               McDonald, Helen and Fisher, Louis and Tomlinson, Laurie and
+               Mathur, Rohini and Drysdale, Henry and Eggo, Rosalind M and
+               Wing, Kevin and Wong, Angel Y S and Forbes, Harriet and Parry,
+               John and Hester, Frank and Harper, Sam and Eavis, Alex and
+               Jarvis, Richard and Avramov, Dima and Griffiths, Paul and
+               Fowles, Aaron and Parkes, Nasreen and Douglas, Ian and Evans,
+               Stephen J W and Smeeth, Liam and Goldacre, Ben",
+  abstract  = "Background: On December 8th 2020 NHS England administered the
+               first COVID-19 vaccination. Aim: Describe trends and variation
+               in vaccine coverage by clinical and demographic groups. Design
+               and Setting: With the approval of NHS England, we conducted a
+               cohort study of 57.9 million patient records in general practice
+               in England, in-situ and within the infrastructure of the
+               Electronic Health Record (EHR) software vendors EMIS and TPP
+               using OpenSAFELY. Method: We describe vaccine coverage across
+               various subgroups of Joint Committee on Vaccination and
+               Immunisation (JCVI) priority cohorts. Results: 20,852,692
+               patients (36\%) received a vaccine between December 8th and
+               March 17th 2021. Of patients aged $\geq$80 not in a care home
+               (JCVI group 2) 94.7\% received a vaccine, but with substantial
+               variation by ethnicity (White 96.2\% vaccinated, Black 68.3\%)
+               and deprivation (least deprived 96.6\%, most deprived 90.7\%).
+               Patients with pre-existing medical conditions were more likely
+               to be vaccinated with two exceptions: severe mental illness
+               (89.5\% vaccinated) and learning disability (91.4\%). 275,205
+               vaccine recipients were identified as care home residents
+               (priority group 1; 91.2\% coverage). 1,257,914 (6.0\%)
+               recipients have had a second dose. Detailed characteristics of
+               all cohorts are reported. Conclusion: The NHS in England has
+               rapidly delivered mass vaccination. We deployed a data
+               monitoring framework using publicly auditable methods and a
+               secure, in-situ processing model, using linked but pseudonymised
+               patient-level NHS data on 57.9 million patients. Targeted
+               activity may be needed to address lower vaccination coverage
+               observed among certain key groups.",
+  journal   = "The British journal of general practice: the journal of the
+               Royal College of General Practitioners",
+  publisher = "British Journal of General Practice",
+  month     =  sep,
+  year      =  2021,
+  url       = "https://bjgp.org/content/early/2021/09/24/BJGP.2021.0376.abstract",
+  language  = "en",
+  issn      = "0960-1643, 1478-5242",
+  doi       = "10.3399/BJGP.2021.0376"
+}
+
+@ARTICLE{Walker2021-du,
+  title    = "Clinical coding of long {COVID} in English primary care: a
+              federated analysis of 58 million patient records in situ using
+              {OpenSAFELY}",
+  author   = "Walker, Alex J and MacKenna, Brian and Inglesby, Peter and
+              Tomlinson, Laurie and Rentsch, Christopher T and Curtis, Helen J
+              and Morton, Caroline E and Morley, Jessica and Mehrkar, Amir and
+              Bacon, Seb and Hickman, George and Bates, Chris and Croker,
+              Richard and Evans, David and Ward, Tom and Cockburn, Jonathan and
+              Davy, Simon and Bhaskaran, Krishnan and Schultze, Anna and
+              Williamson, Elizabeth J and Hulme, William J and McDonald, Helen
+              I and Mathur, Rohini and Eggo, Rosalind M and Wing, Kevin and
+              Wong, Angel Ys and Forbes, Harriet and Tazare, John and Parry,
+              John and Hester, Frank and Harper, Sam and O'Hanlon, Shaun and
+              Eavis, Alex and Jarvis, Richard and Avramov, Dima and Griffiths,
+              Paul and Fowles, Aaron and Parkes, Nasreen and Douglas, Ian J and
+              Evans, Stephen Jw and Smeeth, Liam and Goldacre, Ben and {(The
+              OpenSAFELY Collaborative)}",
+  abstract = "BACKGROUND: Long COVID describes new or persistent symptoms at
+              least 4 weeks after onset of acute COVID-19. Clinical codes to
+              describe this phenomenon were recently created. AIM: To describe
+              the use of long-COVID codes, and variation of use by general
+              practice, demographic variables, and over time. DESIGN AND
+              SETTING: Population-based cohort study in English primary care.
+              METHOD: Working on behalf of NHS England, OpenSAFELY data were
+              used encompassing 96\% of the English population between 1
+              February 2020 and 25 May 2021. The proportion of people with a
+              recorded code for long COVID was measured overall and by
+              demographic factors, electronic health record software system
+              (EMIS or TPP), and week. RESULTS: Long COVID was recorded for 23
+              273 people. Coding was unevenly distributed among practices, with
+              26.7\% of practices having never used the codes. Regional
+              variation ranged between 20.3 per 100 000 people for East of
+              England (95\% confidence interval [CI] = 19.3 to 21.4) and 55.6
+              per 100 000 people in London (95\% CI = 54.1 to 57.1). Coding was
+              higher among females (52.1, 95\% CI = 51.3 to 52.9) than males
+              (28.1, 95\% CI = 27.5 to 28.7), and higher among practices using
+              EMIS (53.7, 95\% CI = 52.9 to 54.4) than those using TPP (20.9,
+              95\% CI = 20.3 to 21.4). CONCLUSION: Current recording of long
+              COVID in primary care is very low, and variable between
+              practices. This may reflect patients not presenting; clinicians
+              and patients holding different diagnostic thresholds; or
+              challenges with the design and communication of diagnostic codes.
+              Increased awareness of diagnostic codes is recommended to
+              facilitate research and planning of services, and also surveys
+              with qualitative work to better evaluate clinicians'
+              understanding of the diagnosis.",
+  journal  = "The British journal of general practice: the journal of the Royal
+              College of General Practitioners",
+  month    =  jun,
+  year     =  2021,
+  url      = "http://dx.doi.org/10.3399/BJGP.2021.0301",
+  keywords = "COVID-19; electronic health records; general practice; long
+              COVID; primary health care",
+  language = "en",
+  issn     = "0960-1643, 1478-5242",
+  pmid     = "34340970",
+  doi      = "10.3399/BJGP.2021.0301",
+  pmc      = "PMC8340730"
+}
