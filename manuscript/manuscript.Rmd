@@ -1,21 +1,48 @@
 ---
-title: "Testing Rmd in VS Code"
+title: "Hello OpenSAFELY"
+description: | 
+  Reproducible scientific writing, native to the web
+date: "`r lubridate::today()`"
+author:
+  - first_name: "Milan"
+    last_name: "Wiedemann"
+    url: https://github.com/milanwiedemann
+    affiliation: University of Oxford, Nuffield Department of Primary Care Health Sciences
+    affiliation_url: https://www.bennett.ox.ac.uk/
+    orcid_id: 0000-0003-1991-282X
+
 output:
   # bookdown::pdf_document2: default
   # bookdown::html_document2: default
-  bookdown::word_document2: default
+  # bookdown::word_document2: default
+  distill::distill_article: default
 bibliography: "references.bib"
 link-citations: true
 ---
 
-# References
+# Introduction
+
+Introduce this idea
+
+# Idea
+
+# Markdown 
+
+How does Markdown work?
+
+# Citations and cross-references
+
+## Reference manager
+
+- Zotero
+- Paperpile
 
 Adding a reference from a bib file that gets automatically created by Paperpile [@Curtis2021-an].
 Here's another OpenSAFELY paper @Williamson2020-dt.
 
-# Calculations
+# Code chunks
 
-Some complex calculations here.
+## R
 
 ```{r}
 # Let's use R to solve this for us and store the result in a new object
@@ -25,10 +52,17 @@ results <- 1 + 1
 results
 ```
 
+
+## Python 
+
+# Inline code
+
+Some complex calculations here.
+
 We can also use inline R chunks to return the result in a sentence.
 The answer of our problem above is: `r results`.
 
-## Tables
+# Tables
 
 ```{r mtcars, }
 knitr::kable(mtcars[1:4,1:4], 
@@ -36,5 +70,26 @@ knitr::kable(mtcars[1:4,1:4],
 ```
 
 Really important numbers, see Table \@ref(tab:mtcars).
+
+# Figures
+
+Add figure
+
+# Output formats
+
+- html
+- pdf
+- word
+
+- some templates already exist or can be created manually to match journal requirements.
+- distill might also be an option https://rstudio.github.io/distill/, https://rstudio.github.io/distill/publish_article.html
+
+# Google drive
+
+for collaborations integrate googledrive for easier use of google docs
+
+- https://googledrive.tidyverse.org/index.html
+
+# Customisations and extensions
 
 # References
