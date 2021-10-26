@@ -3,6 +3,7 @@ title: "Hello OpenSAFELY"
 description: | 
   Reproducible scientific writing, native to the web
 date: "`r lubridate::today()`"
+repository_url: https://github.com/milanwiedemann/hello-open-safely
 author:
   - first_name: "Milan"
     last_name: "Wiedemann"
@@ -64,7 +65,7 @@ The answer of our problem above is: `r results`.
 
 # Tables
 
-```{r mtcars, }
+```{r mtcars}
 knitr::kable(mtcars[1:4,1:4], 
              caption = "The mtcars data.")
 ```
@@ -82,7 +83,34 @@ Add figure
 - word
 
 - some templates already exist or can be created manually to match journal requirements.
-- distill might also be an option https://rstudio.github.io/distill/, https://rstudio.github.io/distill/publish_article.html
+- distill might also be an option 
+  - https://rstudio.github.io/distill/
+  - https://rstudio.github.io/distill/publish_article.html
+  - https://rstudio.github.io/distill/metadata.html
+
+# OpenSAFELY Output
+
+```{r}
+df_input <- readr::read_csv(
+  here::here("output", "input.csv"),
+  col_types = readr::cols(patient_id = readr::col_integer(),
+                          age = readr::col_double())
+)
+
+# Create age histogram 
+plot_age <- ggplot2::ggplot(data = df_input, 
+                            ggplot2::aes(age, fill = sex)) + 
+              ggplot2::geom_histogram(bins = 20) +
+              ggplot2::labs(x = "Age (in years)",
+                            y = "Count") +
+              ggplot2::theme(text = ggplot2::element_text(size = 14)) +
+              ggplot2::facet_wrap(~factor(sex, 
+                                          levels = c("F", "M"),
+                                          labels = c("Female", "Male"))) +
+              ggplot2::scale_fill_viridis_d(end = .75)
+
+plot_age
+```
 
 # Google drive
 
